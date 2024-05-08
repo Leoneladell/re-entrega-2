@@ -16,7 +16,16 @@ function NavBar(){
 				<Link to="/" className="flex items-center px-4 -mb-1">Inicio</Link>
 			</li>
 			<li className="flex">
-				<Link to="/Productos" className="flex items-center px-4 -mb-1">Productos </Link>
+				<Link to="/Productos" className="flex items-center px-4 -mb-1">Productos</Link>
+			</li>
+			<li className="flex">
+				<Link to="/category/velas" className="flex items-center px-4 -mb-1">Velas</Link>
+			</li>
+			<li className="flex">
+				<Link to="/category/difusores" className="flex items-center px-4 -mb-1">Difusores</Link>
+			</li>
+			<li className="flex">
+				<Link to="/category/:id" className="flex items-center px-4 -mb-1">ID</Link>
 			</li>
 			<li className="flex">
 				<Link to="/GiftCard" className="flex items-center px-4 -mb-1">GiftCard</Link>
@@ -26,11 +35,6 @@ function NavBar(){
 			</li>
 		</ul>
         <CartWidget/>
-		<button className="flex justify-end p-4 md:hidden">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-			</svg>
-		</button>
 	</div>
 </header>
         </nav>

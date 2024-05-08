@@ -23,6 +23,8 @@ function App() {
           <Route exact path="/" element={<Main />} />
           <Route path="/productdetail/:id" element={<ProductDetail />} />
           <Route path="/productos" element={<Productos/>}/>
+          <Route path="/category/:category" element={<Productos/>}/>
+          <Route path="/productos/:id" element={<Productos/>}/>
           <Route path="/Giftcard" element={<GiftCard/>}/>
           <Route path="/contacto" element={<Contacto/>}/>
         </Routes>
