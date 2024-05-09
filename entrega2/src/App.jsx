@@ -11,12 +11,14 @@ import GiftCard from "./pages/GiftCard"
 
 
 
+
 function App() {
 
   return (
 
     
       <Router>
+       
       <div>
         <Navbar />
         <Routes>
@@ -30,6 +32,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+     
     </Router>
     
    

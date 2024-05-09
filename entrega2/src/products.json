@@ -3,6 +3,7 @@
       "id": 1,
       "name": "Vela cuenca",
       "price": 12000,
+      "description":"lorem ipsum",
       "category":"velas",
       "image": "./producto1.jpg"
     },
@@ -10,6 +11,7 @@
       "id": 2,
       "name": "Vela summer",
       "price": 10000,
+      "description":"lorem ipsum",
       "category":"velas",
       "image": "./producto2.jpg"
     },
@@ -17,6 +19,7 @@
       "id": 3,
       "name": "Difusor Magnolias",
       "price": 3000,
+      "description":"lorem ipsum",
       "category":"difusores",
       "image": "./producto3.jpg"
     },
@@ -24,6 +27,7 @@
       "id": 4,
       "name": "Difusor Cosmo",
       "price": 5000,
+      "description":"lorem ipsum",
       "category":"difusores",
       "image": "./producto4.jpg"
     }
